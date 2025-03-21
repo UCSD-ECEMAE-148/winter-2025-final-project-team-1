@@ -3,15 +3,9 @@
 
 <h2>Electromagnet Module</h2>
 
-but the diagram here outlines a pretty simple configuration where a relay sits in series between a battery and magnet, and the relay takes input signals from the arduino to ultimately open/close the circuit.
+The diagram below outlines the configuration of the circuitry behind the robot's retrieval actuation. A relay sits in series between a battery and magnet, and the relay takes input signals from the Arduino to ultimately open/close the circuit.
 
-
-
-<theory of how current actuates magnetic field for magnet, and identical phenomenon takes place within the relay to open/close the circuit>
-
-
-
-when you have coils of wire, sending current through them gives rise to a magnetic field. when interacting with an object with a magnetic dipole, we have attraction/repulsion between them. the mechanism by which the relay open/closes the circuit actually leverages this to use input current as the determinant for a functional circuit.
+Per Ampere's Law, when current flows through coils of wire, this gives rise to a magnetic field. When this field interacts with an object with a magnetic dipole, attraction or repulsion occurs between them. In fact, the mechanism by which the relay open/closes the circuit actually leverages this to use input current as the determinant for a functional circuit. When the relay closes (and current can reach the electromagnet), then a magnetic field is generated, yielding attraction between the magnet and the object of interest.
 
 
 
