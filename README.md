@@ -36,8 +36,6 @@ Combining the three separate systems into one unified Python script:
 - When DonkeyCar reaches the end of the home path:
   - Signal Arduino to **turn OFF** the electromagnet.
 
----
-
 ## Requirements
 
 - All three programs already exist and are functional individually.
