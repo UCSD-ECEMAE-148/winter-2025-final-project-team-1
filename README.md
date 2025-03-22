@@ -1,5 +1,8 @@
 # winter-2025-final-project-team-1
 148-winter-2025-final-project-team-1 created by GitHub Classroom
+Wiring 
+
+![image](https://github.com/user-attachments/assets/d4753133-68a3-4934-afa8-c9dc6728d2e6)
 
 <h2>Electromagnet Module</h2>
 
