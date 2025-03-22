@@ -17,3 +17,33 @@ Regarding the implementation of the programmatic control of the magnet, we inter
 With more freedom in our project timeline, I imagine that future iterations would involve a more sophisticated casing for the Arduino and Battery on our car. In addition, improved soldering and safety precautions should be made to ensure that wires are securely separated from each other. Nore generic functionality might involve the discretion of using stronger and larger magnets to retrieve the object. This capability would necessitate the categorization of the object we’re trying to recognize, and—-in terms of implementation—-delineation between the logic lines of actuating the magnets of different size and strength.
 
 Gps integration
+
+
+# Integrating DonkeyCar GPS, Red Box Detection, and Arduino Electromagnet Control
+
+This guide combines three separate systems into one unified Python script:
+
+1. **DonkeyCar** – Autonomous driving following a predefined path.
+2. **RedBox Detector** (`redbox.py`) – Detects a red box to trigger actions.
+3. **Arduino** – Controls an electromagnet (ON/OFF) via serial commands.
+
+---
+
+## Objective
+
+- Let **DonkeyCar** follow a normal path.
+- Once `redbox.py` detects the red box:
+  - Switch DonkeyCar to a "return home" path.
+  - Send a signal to Arduino to **turn ON** the electromagnet.
+- When DonkeyCar reaches the end of the home path:
+  - Signal Arduino to **turn OFF** the electromagnet.
+
+---
+
+## Requirements
+
+- All three programs already exist and are functional individually.
+- You can import the red box detection as a function `detect_redbox()`.
+- You know how to determine when the car has returned home.
+- Arduino is connected via USB (e.g., `/dev/ttyUSB0`) and accepts `ON` / `OFF` commands over serial.
+
