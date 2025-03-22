@@ -21,13 +21,11 @@ Gps integration
 
 # Integrating DonkeyCar GPS, Red Box Detection, and Arduino Electromagnet Control
 
-This guide combines three separate systems into one unified Python script:
+Combining the three separate systems into one unified Python script:
 
 1. **DonkeyCar** – Autonomous driving following a predefined path.
 2. **RedBox Detector** (`redbox.py`) – Detects a red box to trigger actions.
 3. **Arduino** – Controls an electromagnet (ON/OFF) via serial commands.
-
----
 
 ## Objective
 
