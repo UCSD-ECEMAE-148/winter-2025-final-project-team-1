@@ -32,7 +32,8 @@ All components were mounted onto the chassis of the car through 3D prints onto t
 <img src="https://github.com/UCSD-ECEMAE-148/winter-2025-final-project-team-1/blob/main/images/arm.png" width="300"/>
 
 **Camera Mount**
-<img src="" width="300"/>
+https://github.com/UCSD-ECEMAE-148/winter-2025-final-project-team-1/blob/main/images/camera%20mount%20bottom.png
+
 
 <h2>Camera Module</h2>
 
