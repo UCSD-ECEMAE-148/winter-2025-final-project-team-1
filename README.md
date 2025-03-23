@@ -3,7 +3,7 @@
 <p align="center">
   ECE-MAE-148 Final Project
   <br> Team 1 (Winter 2025)
-  <br> Group Members: Jackson Goenawan, Vaibhav Maloo, Giselle Romo, Sabrina Wu
+  <br> Group Members: Jackson Goenawan (jgoenawan@ucsd.edu), Vaibhav Maloo (vmaloo@ucsd.edu), Giselle Romo (gromo@ucsd.edu), Sabrina Wu (sywu@ucsd.edu)
   </p>
 
   
@@ -20,6 +20,7 @@ Tasks would include:
 [Final Presentation Link](https://docs.google.com/presentation/d/1t9K-0OR73WJJfBTiZ8WexCp_GY0HfsMJMqI6e1q9S3A/edit?usp=sharing)
 
 <h2>Electronics Overview</h2>
+
 ![image](https://github.com/user-attachments/assets/d4753133-68a3-4934-afa8-c9dc6728d2e6)
 
 <h2>Mechanical Designs</h2>
