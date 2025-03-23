@@ -1,6 +1,21 @@
-# winter-2025-final-project-team-1
-148-winter-2025-final-project-team-1 created by GitHub Classroom
-Wiring 
+# Autonomous Search and Rescue for Interplanetary Missions
+<p align="center">
+  ECE-MAE-148 Final Project
+  <br> Team 1 (Winter 2025)
+  <br> Group Members: Jackson Goenawan, Vaibhav Maloo, Giselle Romo, Sabrina Wu
+  </p>
+
+  
+<h2>Primary Goal</h2>
+Develop an autonomous vehicle capable of simulating a search-and-rescue mission in an interplanetary environment.
+
+Tasks would include:
+
+- **Object Detection & Recognition**
+- **Real-Time Mapping and Path Planning with GPS**
+- **Object Retrieval**
+  - A successful mission where an object is “found and rescued” and an unsuccessful mission where the robot is forced to return to base coordinates
+
 
 ![image](https://github.com/user-attachments/assets/d4753133-68a3-4934-afa8-c9dc6728d2e6)
 <h2>Camera Module</h2>
@@ -9,7 +24,7 @@ The Oakd camera was needed to identify and lead the car to the precise location 
 
 A model was trained on Roboflow using the YOLO architecture for object detection. The object used for this project is a red box with a magnet, therefore multiple pictures of the box were uploaded onto Roboflow, annotated, and then trained. The final model (ID: red-box-detection-mae125/2) has a mAP of 99.5%, a precision of 88.7%, and a recall of 100%. These high results ensure accurate detection of the object in question at different angles and environmental factors. 
 
-The model was then deployed into the camera using a Python script (redbox.py). 
+The model was then deployed into the camera using a Python script (redbox.py). Since the camera is connected to the jetson, depthai and depthai-sdk were used to run the model on jetson while taking the inputs from the camera. 
 
 
 <h2>Electromagnet Module</h2>
