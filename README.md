@@ -3,6 +3,14 @@
 Wiring 
 
 ![image](https://github.com/user-attachments/assets/d4753133-68a3-4934-afa8-c9dc6728d2e6)
+<h2>Camera Module</h2>
+
+The Oakd camera was needed to identify and lead the car to the precise location to pick up the object. 
+
+A model was trained on Roboflow using the YOLO architecture for object detection. The object used for this project is a red box with a magnet, therefore multiple pictures of the box were uploaded onto Roboflow, annotated, and then trained. The final model (ID: red-box-detection-mae125/2) has a mAP of 99.5%, a precision of 88.7%, and a recall of 100%. These high results ensure accurate detection of the object in question at different angles and environmental factors. 
+
+The model was then deployed into the camera using a Python script (redbox.py). 
+
 
 <h2>Electromagnet Module</h2>
 
