@@ -20,6 +20,14 @@ Tasks would include:
 
 
 ![image](https://github.com/user-attachments/assets/d4753133-68a3-4934-afa8-c9dc6728d2e6)
+
+<h2>Mechanical Designs</h2>
+All components were mounted onto the chassis of the car through 3D prints onto the laser-cut wooden universal frame. The CAD designs of the 3D prints below were made to fit our specific needs and functions. 
+
+#Robot Arm#
+![image]()
+
+
 <h2>Camera Module</h2>
 
 The Oakd camera was needed to identify and lead the car to the precise location to pick up the object. 
@@ -71,6 +79,7 @@ Combining the three separate systems into one unified Python script:
 - You know how to determine when the car has returned home.
 - Arduino is connected via USB (e.g., `/dev/ttyUSB0`) and accepts `ON` / `OFF` commands over serial.
  
-
+# Acknowledgements
 _Thank you to Professor Jack Silberman and our TAs Alexander and Winston_
+
 
