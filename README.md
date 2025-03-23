@@ -24,9 +24,11 @@ Tasks would include:
 <h2>Mechanical Designs</h2>
 All components were mounted onto the chassis of the car through 3D prints onto the laser-cut wooden universal frame. The CAD designs of the 3D prints below were made to fit our specific needs and functions. 
 
-#Robot Arm#
-![image]()
+**Robot Arm**
+![image](https://github.com/UCSD-ECEMAE-148/winter-2025-final-project-team-1/blob/main/images/arm.png)
 
+**Camera Mount**
+![image]()
 
 <h2>Camera Module</h2>
 
