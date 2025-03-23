@@ -1,5 +1,7 @@
 # Autonomous Search and Rescue for Interplanetary Missions
-![image](https://github.com/UCSD-ECEMAE-148/winter-2025-final-project-team-1/blob/main/images/IMG_2694.png)
+
+![image](https://github.com/UCSD-ECEMAE-148/winter-2025-final-project-team-1/blob/main/images/robot.jpg)
+
 <p align="center">
   ECE-MAE-148 Final Project
   <br> Team 1 (Winter 2025)
