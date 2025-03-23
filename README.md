@@ -16,6 +16,8 @@ Tasks would include:
 - **Object Retrieval**
   - A successful mission where an object is “found and rescued” and an unsuccessful mission where the robot is forced to return to base coordinates
 
+[Final Presentation Link](https://docs.google.com/presentation/d/1t9K-0OR73WJJfBTiZ8WexCp_GY0HfsMJMqI6e1q9S3A/edit?usp=sharing)
+
 
 ![image](https://github.com/user-attachments/assets/d4753133-68a3-4934-afa8-c9dc6728d2e6)
 <h2>Camera Module</h2>
@@ -68,4 +70,7 @@ Combining the three separate systems into one unified Python script:
 - You can import the red box detection as a function `detect_redbox()`.
 - You know how to determine when the car has returned home.
 - Arduino is connected via USB (e.g., `/dev/ttyUSB0`) and accepts `ON` / `OFF` commands over serial.
+ 
+
+_Thank you to Professor Jack Silberman and our TAs Alexander and Winston_
 
